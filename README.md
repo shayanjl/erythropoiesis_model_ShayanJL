@@ -1,50 +1,62 @@
 # Thesis Modeling and Computational Biology Demos
 
-This repository contains a selection of simplified demonstration scripts inspired by the computational approaches used in my master's thesis work in systems biology and mathematical modeling.
+This repository contains a curated set of simplified computational demos inspired by the methodological framework of my master’s thesis in Medical Biotechnologies at the Università del Piemonte Orientale.
 
-At this stage, the repository is intentionally limited to **generic, educational, and public-safe examples** that reflect the overall types of methods used in the project, including:
+My thesis focuses on mathematical modelling and sensitivity analysis of erythropoiesis disruption in acute myeloid leukaemia (AML), with particular attention to nurse macrophages, erythroblastic islands, and niche-mediated regulation. The broader project combines ordinary differential equation (ODE) modelling, simulation, calibration, and sensitivity analysis to study how leukaemia-driven microenvironmental changes alter erythroid dynamics and to explore intervention-oriented hypotheses. :contentReference[oaicite:1]{index=1}
 
-- ODE-based dynamic modeling
-- parameter estimation workflows
-- sensitivity analysis
+## Repository scope
+
+At present, this repository is intentionally limited to **generic, educational, and public-safe demo scripts** that reflect the main computational ideas used throughout the thesis, including:
+
+- ODE-based dynamic modelling
+- parameter estimation and calibration workflows
+- local and global sensitivity analysis
 - intervention-response simulations
-- surrogate and uncertainty-analysis style demos
+- surrogate and uncertainty-analysis style demonstrations
 
-The full research code used in my thesis and related manuscript is **not yet included here**, as parts of the work are still connected to ongoing or unpublished research outputs.
+These scripts are designed to communicate the computational style and methodological direction of the work without prematurely disclosing unpublished biological details, calibrated parameter sets, manuscript-specific analyses, or publication-linked research code.
 
-## Current purpose of this repository
+## Why the repository currently contains demos
 
-The aim of this repository is to provide a transparent and structured public record of the kinds of computational methods, modeling logic, and coding workflows I used during my thesis project, while avoiding the premature release of unpublished research material.
+Parts of the thesis project are connected to ongoing research outputs and material that is better released in a more complete and publication-linked form. For that reason, the current repository does **not** contain the full research codebase used in the thesis or manuscript-related analyses.
 
-For now, the scripts in this repository are:
+Instead, the repository provides representative demo implementations of the types of models and workflows developed during the project. The goal is to make the computational approach visible in a responsible and structured way while preserving appropriate separation between public educational material and unpublished research assets.
 
-- simplified versions of the underlying computational ideas
-- detached from unpublished biological details, fitted parameters, and manuscript-specific analyses
-- designed to be readable, reproducible, and useful as standalone demos
+## Thesis context
 
-## About the thesis context
+The thesis integrates experimental and computational work to investigate how AML remodels the bone marrow microenvironment and perturbs erythropoiesis. It includes a mechanistic modelling framework, model calibration against experimental observations, and both local and global sensitivity analyses to identify influential regulatory processes and evaluate potential intervention strategies. The thesis also includes benchmark toy models, ODE-based computational implementation, and analysis of intervention concepts such as cytokine-modulation scenarios. :contentReference[oaicite:2]{index=2}
 
-These demos are related in spirit to my master's thesis work in computational and mathematical biology. The original project involved mechanistic modeling, simulation, and quantitative analysis in a biomedical research setting.
+The demos in this repository are therefore **conceptually related** to the thesis, but they should not be interpreted as the final archived or publication-ready research code.
 
-Because the associated research is still in the publication process, the repository currently includes **demonstration scripts rather than the complete publication-linked codebase**.
+## What the current scripts are intended to show
 
-## Future updates
+The files currently included here are meant to demonstrate:
 
-After the related paper or manuscript is published, this repository may be expanded with:
+- how dynamic biological systems can be represented using compartmental ODE models
+- how synthetic or simplified calibration workflows can be structured
+- how sensitivity-analysis concepts can be implemented in practice
+- how intervention-response logic can be explored computationally in reduced toy settings
+- how modelling workflows can be written in a clear and reproducible way
 
-- a more complete research-oriented code release
-- publication-linked reproducible scripts
-- clearer mapping between demo workflows and final scientific analyses
-- improved documentation for the full modeling framework
+In other words, this repository is currently a **public-facing methodological companion**, not the complete scientific software release associated with the thesis.
 
-## Notes
+## Planned future updates
 
-The current files should be understood as **representative demos**, not as the final archived version of the thesis code.
+Following publication or formal release of the associated research outputs, this repository may be expanded to include:
 
-They are meant to show the computational style and methodological direction of the work without disclosing material that is better released together with the final research output.
+- more complete research-oriented code
+- publication-linked reproducible workflows
+- clearer mapping between the public demos and the final scientific analyses
+- additional documentation for the full modelling framework
+- more detailed notes on parameterisation, validation, and sensitivity-analysis strategy
+
+## Important note
+
+The current scripts should be understood as **representative demonstrations** only. They are intentionally simplified and abstracted, and they omit thesis-specific biological detail, unpublished data dependencies, fitted model components, and manuscript-level analyses.
 
 ## Author
 
-Shayan Jalali  
+**Shayan Jalali**  
 MSc in Medical Biotechnologies  
-Computational biology, mathematical modeling, and data analysis
+Università del Piemonte Orientale  
+Computational biology, mathematical modelling, and data analysis
